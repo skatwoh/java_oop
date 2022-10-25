@@ -1,0 +1,13 @@
+public class Bai3 {
+    public static void main(String[] args) {
+        double banKinh, chuVi, dienTich;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Mời nhập bán kính: ");
+        banKinh = sc.nextDouble();
+
+        chuVi = 2 * Math.PI * banKinh;
+        dienTich = Math.PI * Math.pow(banKinh, 2);
+        
+    }
+}
